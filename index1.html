@@ -37,6 +37,17 @@
 			left: 50%;
 			width: 20%;
 		}
+		body{
+			position: relative;
+			
+		}
+		.footer{
+			position:  absolute;
+			left:  0;
+			bottom: 0;
+			width:  100%;
+			background-color: green;
+		}
 	</style>
 
 </head>
@@ -45,7 +56,7 @@
 <!-- 	2.It can have a height and width(parent width).
 	3. nothing can be on either side( because it's 100% and it ignores margin) -->
 	<!-- 4. If you change the size, it will still take up 100% but the rest outside of the width will be margin. -->
-	<div id="nav-bar">
+	<div id="nav-bar"> <!-- block level element -->	
 	This is the main nav bar
 	</div>
 	<div id="container">
@@ -79,6 +90,10 @@
 
 	<div class="the-box">
 	I'm a box!!
+	</div>
+
+	<div class="footer"> <!-- body is the ancestor/ the other classes are the siblings -->
+	Loren Ipsum
 	</div>
 
 </body>

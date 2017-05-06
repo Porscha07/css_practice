@@ -1,0 +1,108 @@
+#facebook-wrapper{
+
+}
+
+#header{
+	background-color: #3B5998;
+	height: 30px; /* Facebook Blue */
+}
+#header-inner{
+	max-width: 900px;
+	margin: auto;
+	overflow:  hidden;
+}
+
+#fb-logo, #fb-search{
+	float: left;
+	margin-left: 10px;
+}
+
+#fb-logo{
+	height: 24px;
+	width: 24px;
+	background-image: url('https://www.facebook.com/rsrc.php/v3/yu/r/UnZEsNz1oHl.png');
+	background-position:0px -17px;	
+}
+
+#fb-search input{
+	width: 350px;
+	height: 20px;
+}
+#right-header{
+	float: right;
+}
+
+#fb-icons{
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	height: 30px;
+	min-width: 24px;
+}
+
+.fb-icons.friends, .fb-icons.messages, .fb-icons.notifications{
+	background-image: url ('https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png')
+}
+
+.fb-icons.friends{
+	background-position: 0px-11px;
+}
+
+.fb-icons.messages{
+	background-position:  0px-11px;
+
+}
+
+.fb-icons.notifications{
+	background-position: 0px-11px;
+
+}
+
+#home-updates .news-feeds{
+	background: rgba(0,0,0,.25)
+
+
+}
+
+#left,#middle#right{
+	float: left;
+}
+
+#left{
+	width: 20%;
+	float: left;
+	margin-left: 15px;
+}
+
+#middle{
+	width: 50%;
+	float: left;
+	border-left:  1px #cacaca solid;
+	border-right: 1px #cacaca solid;
+}
+
+#right{
+	width: 25%;
+	float: right;
+}
+
+.left-profile .left-profile-name{
+	vertical-align: top;
+}
+
+.favorites-header{
+	margin-left: 10px;
+}
+
+.favorites-item{
+	margin-left: 15px;
+}
+
+.status-header .status-item{
+	float: left;
+	margin-left: 10px;
+}
+
+.status-wrapper input{
+
+}

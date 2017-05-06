@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Car Exercise</title>
+	<style type="text/css" media="screen">
+
+	.circle1{
+		position: absolute;
+		top: 200px;
+		left: 200px;
+		height:100px; 
+		width:100px ;
+		border-radius: 50%;
+		background-color: black;
+		margin-right: 80px;
+	}
+
+	.circle2{
+		position: absolute;
+		top: 200px;
+		right: 200px;
+		height:100px; 
+		width:100px ;
+		border-radius: 50%;
+		background-color: black;
+		margin-right: 70px;
+
+	}
+
+	.small-circle1{
+		position:absolute;
+ 		top: 20px;
+ 		left: 20px;
+ 		background-color: silver;
+ 		height:50px;
+ 		width: 50px;
+ 		border-radius: 50%;
+	}
+	.small-circle2{
+		position:absolute;
+ 		top: 20px;
+ 		left: 20px;
+ 		background-color: silver;
+ 		height:50px;
+ 		width: 50px;
+ 		border-radius: 50%;
+	}
+	.small-circle2 img, .small-circle1 img{
+		height: 25px;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		top: 15px;
+		left: 15px;
+	}
+	.car_body {
+		width: 1000px;
+		height: 200px;
+		background: red;
+		border-radius: 60px;
+		top: 15px;
+		margin-left: 15px;
+		margin-right: 70px;
+		box-shadow: 0px 0px 10px #888888;
+	}
+	.car_door{
+		margin-top: 18px;
+		width: 100px;
+		height: 200px;
+		background: black;
+		margin-left: 1000px;
+		top: 25px;
+		left: 25px;
+		margin-bottom: 50px;
+		margin-right: 70px;
+		border-radius: 15px;
+	}
+	
+
+	.infinity {
+	    position: relative;
+	    width: 212px;
+	    height: 100px;
+}
+
+	.infinity:before,
+	.infinity:after {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 60px;
+	    height: 60px;
+	    border: 20px solid red;
+	    border-radius: 50px 50px 0 50px;
+	    transform: rotate(-45deg);
+}
+
+	.infinity:after {
+    	left: auto;
+    	right: 0;
+        border-radius: 50px 50px 50px 0;
+		transform: rotate(45deg);
+}
+	
+
+	</style>
+</head>
+<body>
+
+	<div class="circle1"> 
+		<div class = "small-circle1">
+			<img src="./images/porsche icon.png">
+		</div>
+	</div>
+
+	<div class="circle2">
+		<div class="small-circle2">
+			<img src="./images/porsche icon.png">
+	 	</div>
+	 </div>
+
+	 <div class="car_body">
+	 	<div class="infinity">
+	 	</div>
+	 </div>
+</body>
+</html>
